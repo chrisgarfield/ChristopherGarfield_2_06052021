@@ -475,14 +475,56 @@ aside a:hover {
   box-shadow: 0px 1px 3px grey;
   border-radius: 10px;
   width: 120%;
+  margin-bottom: 29px;
+  margin-left: -25px;
+  padding-bottom: 6px;
+}
+
+.pomegues img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.pomegues {
+  box-shadow: 0px 1px 3px grey;
+  border-radius: 10px;
+  width: 120% !important;
   margin-bottom: 32px;
   margin-left: -25px;
   padding-bottom: 3px;
 }
 
+.frioul img {
+  width: 100%;
+  height: 87px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.frioul {
+  box-shadow: 0px 1px 3px grey;
+  border-radius: 10px;
+  width: 120% !important;
+  height: 32%;
+  margin-left: -25px;
+  margin-top: 20px;
+  padding-bottom: 3px;
+}
+
 .carte2 {
-  width: 130%;
-  height: 50%;
+  height: auto;
+  width: auto;
+  margin-top: 21px;
+}
+
+.carte3 {
+  height: 89%;
+  width: auto;
+  margin-top: 4px;
 }
 
 .activitestitre {
