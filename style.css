@@ -76,11 +76,13 @@ h6 {
   font-size: 1em;
   font-weight: bolder;
   color: black;
+  cursor: pointer;
 }
 
 .textfooter {
   font-size: 0.85em;
   color: #909090;
+  cursor: pointer;
 }
 
 /* header */
@@ -452,6 +454,7 @@ aside a:hover {
   color: black;
   font-weight: bold;
   margin-left: 30px;
+  cursor: pointer;
 }
 /* section 3 */
 
