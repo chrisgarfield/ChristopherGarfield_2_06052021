@@ -695,6 +695,10 @@ footer {
     flex-direction: row;
   }
 
+  span.recherche {
+    display: none;
+  }
+
   button {
     display: initial;
     border-radius: 25%;
