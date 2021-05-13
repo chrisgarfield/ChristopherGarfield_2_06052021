@@ -642,8 +642,14 @@ footer {
   }
 
   h1 {
-    font-size: 1.6em;
-    margin: 0 0 0 15px;
+    font-size: 1.5em !important;
+    margin: 0 0 20px 15px;
+  }
+
+  h4 {
+    margin-left: 15px;
+    font-weight: normal;
+    font-size: 1.1em;
   }
 
   .logo {
@@ -653,8 +659,7 @@ footer {
   }
 
   .div_header {
-    display: flex;
-    flex-direction: column-reverse;
+    flex-wrap: flex;
   }
 
   .section1 {
@@ -663,36 +668,26 @@ footer {
 
   a.sinscrire_nav {
     font-size: 1em;
-    position: absolute;
-    padding: 0 !important;
-    margin: -70px 0 0 -80px !important;
+    margin: -50px 0 0 130px !important;
   }
 
   nav ul {
-    display: flex;
-    flex-direction: column-reverse;
-    float: left;
-    width: 100%;
+    flex-wrap: wrap;
   }
 
-  #div.navbar {
+  div.navbar {
     display: flex;
-    flex-direction: column-reverse;
-    float: left;
-    margin-top: 200px;
+    flex-wrap: wrap;
+    margin: 10 0 0 0 !important;
   }
+
   .navbar {
-    float: right;
-    display: block;
-    margin-top: 100px;
+    flex-wrap: wrap;
   }
 
   div.filtres {
-    display: flex;
     flex-wrap: wrap;
-  }
-  .recherche {
-    flex-direction: row;
+    margin: 10px 0 10px 15px;
   }
 
   span.recherche {
@@ -701,6 +696,8 @@ footer {
 
   button {
     display: initial;
+    margin: 0 !important;
+    padding: 14px !important;
     border-radius: 25%;
   }
 
@@ -708,19 +705,39 @@ footer {
     display: inline;
   }
 
+  input {
+    font-size: 1.1em;
+    padding: 12px 12px 14px 12px !important;
+    margin: 0 10px 0 0 !important;
+  }
+
   .fa-map-marker-alt {
     margin-left: 15px;
   }
 
+  .fa-info {
+    margin-left: 15px;
+    padding: 6px;
+    height: auto;
+    width: auto;
+  }
+
+  div.resultats {
+    display: flex;
+  }
+
+  span.nomresultats {
+    display: flex;
+    font-size: 1.2em;
+  }
+
   div.filtrelement {
-    display: block;
-    float: left;
-    margin: 10px 0 5px 0;
+    flex-wrap: wrap;
+    margin: 10px 0 10px 15px !important;
   }
 
   .section1 div {
     flex-wrap: wrap;
-    flex-direction: column-reverse;
     width: auto;
   }
 
@@ -788,6 +805,7 @@ footer {
   footer {
     flex-direction: column;
     width: 100%;
+    margin-left: 15px;
     padding-left: 0 !important;
   }
 }
