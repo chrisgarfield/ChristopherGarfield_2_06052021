@@ -831,22 +831,19 @@ footer {
   .section3 img {
     width: 100%;
     height: 150px;
-    object-fit: contain;
   }
 
   .activites div {
-    width: 100%;
+    width: 80%;
   }
 
   figure {
-    width: 130%;
+    width: 100%;
     margin: 16px 40px 16px 0px;
   }
 
   footer {
     flex-direction: column;
     width: 100%;
-    margin-left: 15px;
-    padding-left: 0 !important;
   }
 }
