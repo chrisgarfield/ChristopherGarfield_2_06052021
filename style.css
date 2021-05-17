@@ -633,12 +633,28 @@ footer {
   margin-left: 15em;
 }
 
+.header_mobile {
+  display: none;
+}
+
+.hebergements_mobile {
+  display: none;
+}
+
 /* regles responsive */
 
 @media all and (max-width: 600px) {
   header {
     flex-direction: column;
     width: auto;
+  }
+
+  .header {
+    display: none !important;
+  }
+
+  .hebergements {
+    display: none;
   }
 
   h1 {
@@ -661,6 +677,26 @@ footer {
     width: 30%;
     height: 100%;
     margin: 0 0 0 15px;
+  }
+
+  .header_mobile {
+    display: initial;
+  }
+
+  .navbar_mobile {
+    display: flex;
+  }
+
+  .navigation_mobile {
+    border-bottom: solid 3px #0065fc;
+    border-bottom-width: 20%;
+  }
+  .sinscrire_nav_mobile {
+    float: right;
+    font-size: 1em;
+    color: #0065fc;
+    font-weight: bolder;
+    margin: 40px 0 0 150px;
   }
 
   .div_header {
@@ -741,9 +777,14 @@ footer {
   .filtres {
     margin: 0 300px 0 0;
   }
+
   div.filtreelement {
     margin: 5px 0 5px 0 !important;
     width: auto;
+  }
+
+  .filtre_mobile {
+    margin-right: 100%;
   }
 
   .section1 div {
@@ -756,14 +797,18 @@ footer {
   }
 
   .hebergements {
-    background-color: white;
-    margin-left: 15px !important;
+    display: none;
   }
 
-  .hebergements_nav {
+  .hebergements_nav_mobile {
+    color: #0065fc;
     border-bottom: solid 3px #0065fc;
-    border-top: none;
-    padding-bottom: 10px;
+  }
+
+  .hebergements_mobile {
+    display:initial
+    background-color: white;
+    margin-left: 15px !important;
   }
 
   .hebergements img {
@@ -831,22 +876,19 @@ footer {
   .section3 img {
     width: 100%;
     height: 150px;
-    object-fit: contain;
   }
 
   .activites div {
-    width: 100%;
+    width: 80%;
   }
 
   figure {
-    width: 130%;
+    width: 100%;
     margin: 16px 40px 16px 0px;
   }
 
   footer {
     flex-direction: column;
     width: 100%;
-    margin-left: 15px;
-    padding-left: 0 !important;
   }
 }
