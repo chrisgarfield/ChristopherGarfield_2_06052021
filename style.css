@@ -122,8 +122,8 @@ nav a {
 
 .hebergements_nav {
   color: #0065fc;
-  border-top: solid 3px #0065fc;
-  border-top-width: 130%;
+  border-top: solid 1px #0065fc;
+  border-top-width: 2em;
   padding-top: 30px;
   padding-left: 20px;
   padding-right: 20px;
@@ -169,7 +169,6 @@ input {
   padding: 12px 12px 14px 20px;
   font-size: 1em;
   font-weight: bolder;
-  letter-spacing: 110%;
   font-family: raleway;
   margin-left: -5px;
 }
@@ -184,7 +183,6 @@ button {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   margin-left: -5px;
-  letter-spacing: 120%;
   cursor: pointer;
 }
 
@@ -659,11 +657,12 @@ footer {
 
   h1 {
     font-size: 1.4em !important;
-    margin: 0 0 20px 15px;
+    margin: 50px 0 30px 15px;
   }
 
   h4 {
     margin-top: 5px;
+    margin-bottom: 35px;
     margin-left: 15px;
     font-weight: normal;
     font-size: 1em;
@@ -687,20 +686,12 @@ footer {
     display: flex;
   }
 
-  .navigation_mobile {
-    border-bottom: solid 3px #0065fc;
-    border-bottom-width: 20%;
-  }
   .sinscrire_nav_mobile {
     float: right;
     font-size: 1em;
     color: #0065fc;
     font-weight: bolder;
-    margin: 40px 0 0 150px;
-  }
-
-  .div_header {
-    flex-wrap: flex;
+    margin: 40px 0 20px 180px;
   }
 
   .section1 {
@@ -721,7 +712,7 @@ footer {
     display: flex;
     flex-flow: wrap;
     justify-content: flex-start;
-    margin: 10 0 0 0 !important;
+    margin: 10px 0 0 0 !important;
   }
 
   .navbar {
@@ -785,6 +776,8 @@ footer {
 
   .filtre_mobile {
     margin-right: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
 
   .section1 div {
@@ -803,10 +796,12 @@ footer {
   .hebergements_nav_mobile {
     color: #0065fc;
     border-bottom: solid 3px #0065fc;
+    padding: 0 35px 15px 55px;
+    margin-bottom: 20px;
   }
 
   .hebergements_mobile {
-    display:initial
+    display:initial;
     background-color: white;
     margin-left: 15px !important;
   }
@@ -884,7 +879,7 @@ footer {
 
   figure {
     width: 100%;
-    margin: 16px 40px 16px 0px;
+    margin: 0px 40px 16px 0px;
   }
 
   footer {
