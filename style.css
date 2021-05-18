@@ -236,7 +236,7 @@ button {
 }
 
 .fa-info {
-  border-radius: 50px;
+  border-radius: 50%;
   color: #0065fc;
   border: solid grey;
   border-width: 1px;
@@ -247,7 +247,7 @@ button {
 .resultats {
   display: flex;
   color: #909090;
-  font-size: 14px;
+  font-size: 0.8em;
   margin: 15px 0px 15px 0px;
 }
 
@@ -519,7 +519,7 @@ aside a:hover {
 
 .frioul img {
   width: 100%;
-  height: 87px;
+  height: 90px;
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -529,10 +529,9 @@ aside a:hover {
   box-shadow: 0px 1px 3px grey;
   border-radius: 10px;
   width: 120% !important;
-  height: 32%;
+  height: 34%;
   margin-left: -25px;
   margin-top: 20px;
-  padding-bottom: 8px;
 }
 
 .frioul:hover {
@@ -542,16 +541,63 @@ aside a:hover {
   box-shadow: 0.5px 1.5px 4px #3d3d3d;
 }
 
+.notredame img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.notredame {
+  box-shadow: 0px 1px 3px grey;
+  border-radius: 10px;
+  width: 120% !important;
+  margin-bottom: 32px;
+  margin-left: -25px;
+  padding-bottom: 3px;
+}
+
+.notredame:hover {
+  transform: scale(1.03, 1.04);
+  background-color: #eaf2ff;
+  image-orientation: flip;
+  box-shadow: 0.5px 1.5px 4px #3d3d3d;
+}
+
+.longchamp img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.longchamp {
+  box-shadow: 0px 1px 3px grey;
+  border-radius: 10px;
+  width: 120% !important;
+  margin-bottom: 32px;
+  margin-left: -25px;
+  padding-bottom: 3px;
+}
+
+.longchamp:hover {
+  transform: scale(1.03, 1.04);
+  background-color: #eaf2ff;
+  image-orientation: flip;
+  box-shadow: 0.5px 1.5px 4px #3d3d3d;
+}
 .carte2 {
   height: auto;
   width: auto;
-  margin-top: 21px;
+  margin-top: 20px;
 }
 
 .carte3 {
-  height: 50%;
+  height: auto;
   width: auto;
-  margin-top: 4px;
+  margin-top: 20px;
 }
 
 .activitestitre {
@@ -582,7 +628,7 @@ aside a:hover {
   box-shadow: 0.5px 1.5px 4px #3d3d3d;
 }
 
-.parc img {
+.calanques img {
   width: 100%;
   height: 317px;
   object-fit: cover;
@@ -590,14 +636,14 @@ aside a:hover {
   border-top-right-radius: 10px;
 }
 
-.parc {
+.calanques {
   border-radius: 10px;
   box-shadow: 0px 1px 3px grey;
   margin-top: 20px;
   height: 180%;
 }
 
-.parc:hover {
+.calanques:hover {
   transform: scale(1.03, 1.04);
   background-color: #eaf2ff;
   image-orientation: flip;
@@ -651,31 +697,53 @@ footer {
     display: none !important;
   }
 
+  body {
+    margin: 0;
+  }
+
   .hebergements {
     display: none;
   }
 
   h1 {
     font-size: 1.4em !important;
-    margin: 50px 0 30px 15px;
+    margin: 50px 0 30px 25px;
+  }
+
+  h2 {
+    font-size: 0.8em;
+    font-weight: normal;
+    color: black;
+    text-indent: 10px;
+  }
+
+  h3 {
+    font-size: 0.9em;
+    font-weight: bold;
+    color: black;
+    text-indent: 10px;
   }
 
   h4 {
     margin-top: 5px;
     margin-bottom: 35px;
-    margin-left: 15px;
+    margin-left: 25px;
     font-weight: normal;
     font-size: 1em;
   }
 
   h5 {
-    margin-left: 15px;
+    margin-left: 25px;
+  }
+
+  a {
+    text-decoration: none;
   }
 
   .logo {
     width: 30%;
     height: 100%;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 25px;
   }
 
   .header_mobile {
@@ -691,7 +759,7 @@ footer {
     font-size: 1em;
     color: #0065fc;
     font-weight: bolder;
-    margin: 40px 0 20px 180px;
+    margin: 40px 0 20px 150px;
   }
 
   .section1 {
@@ -741,14 +809,14 @@ footer {
   }
 
   .fa-map-marker-alt {
-    margin-left: 15px;
+    margin-left: 25px;
   }
 
   .fa-info {
-    margin-left: 15px;
-    padding: 6px;
-    height: auto;
-    width: auto;
+    margin: 5px 0 0 25px !important;
+    padding: 8px !important;
+    height: 0.6em !important;
+    width: 0.6em !important;
   }
 
   div.resultats {
@@ -757,12 +825,13 @@ footer {
 
   span.nomresultats {
     display: flex;
+    justify-content: space-between;
     font-size: 1.2em;
   }
 
   div.filtres {
     flex-wrap: wrap;
-    margin: 20px 0 10px 15px;
+    margin: 20px 0 10px 25px;
   }
 
   .filtres {
@@ -775,7 +844,7 @@ footer {
   }
 
   .filtre_mobile {
-    margin-right: 100%;
+    margin-right: 80%;
     margin-top: 15px;
     margin-bottom: 5px;
   }
@@ -796,14 +865,15 @@ footer {
   .hebergements_nav_mobile {
     color: #0065fc;
     border-bottom: solid 3px #0065fc;
-    padding: 0 35px 15px 55px;
+    padding: 0 35px 15px 50px;
+    margin-right: 15px;
     margin-bottom: 20px;
   }
 
   .hebergements_mobile {
-    display:initial;
+    display: initial;
     background-color: white;
-    margin-left: 15px !important;
+    margin-left: 25px !important;
   }
 
   .hebergements img {
@@ -813,33 +883,33 @@ footer {
   }
 
   .aubergecannebiere {
-    height: 170px;
-    margin: 10px 15px 10px 15px !important;
+    height: 180px;
+    margin: 10px 15px 0px 25px !important;
   }
 
   .hotelduport {
-    height: 170px;
-    margin: 10px 15px 10px 15px !important;
+    height: 180px;
+    margin: 10px 15px 0px 25px !important;
   }
 
   .hotelmouettes {
-    height: 170px;
-    margin: 10px 15px 10px 15px !important;
+    height: 180px;
+    margin: 10px 15px 0px 25px !important;
   }
 
   .hoteldelamer {
-    height: 170px;
-    margin: 10px 15px 10px 15px !important;
+    height: 180px;
+    margin: 10px 15px 0px 25px !important;
   }
 
   .aubergelepanier {
-    height: 170px;
-    margin: 10px 15px 10px 15px !important;
+    height: 180px;
+    margin: 10px 15px 0px 25px !important;
   }
 
   .hotelamina {
-    height: 170px;
-    margin: 10px 15px 10px 15px !important;
+    height: 180px;
+    margin: 10px 15px 0px 25px !important;
   }
 
   .hebergements1 {
@@ -860,6 +930,7 @@ footer {
   aside {
     flex-direction: column;
     width: 100%;
+    border-radius: 0 !important;
   }
 
   aside img {
@@ -868,22 +939,76 @@ footer {
     object-fit: cover;
   }
 
+  .asidecartes {
+    border-radius: 0;
+    padding-bottom: 20px;
+  }
+
   .section3 img {
     width: 100%;
     height: 150px;
+  }
+
+  .activites {
+    margin-left: 15px !important;
   }
 
   .activites div {
     width: 80%;
   }
 
-  figure {
+  .vieuxport {
+    margin-left: 15px !important;
+    width: 92% !important;
+  }
+
+  .pomegues {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    width: 115% !important;
+  }
+
+  .frioul {
+    margin-left: 15px;
+    margin-bottom: -10px !important;
+    width: 115% !important;
+  }
+
+  .calanques {
+    margin-left: 15px !important;
+    margin-bottom: 5px;
+    width: 92% !important;
+  }
+
+  .notredame {
     width: 100%;
-    margin: 0px 40px 16px 0px;
+    margin-left: 15px;
+    margin-bottom: 20px !important;
+    width: 115% !important;
+  }
+
+  .longchamp {
+    width: 100%;
+    margin-left: 15px;
+    width: 115% !important;
   }
 
   footer {
     flex-direction: column;
-    width: 100%;
+    width: 110%;
+    padding: 0 !important;
+  }
+
+  .apropos {
+    margin-left: 25px;
+    margin-right: 0 !important;
+  }
+
+  .noshebergements {
+    margin-left: 25px !important;
+  }
+
+  .assistance {
+    margin-left: 25px;
   }
 }
