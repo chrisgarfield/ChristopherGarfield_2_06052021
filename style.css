@@ -1,6 +1,7 @@
 @font-face {
   font-family: raleway;
-  src: url("Raleway-VariableFont_wght.ttf");
+  src: url("Raleway-Medium.ttf");
+  src: url("Bold.ttf");
 }
 
 body {
@@ -186,11 +187,16 @@ button {
   cursor: pointer;
 }
 
+.recherche{
+  display:flex
+}
+
 .search {
   display: none;
 }
 
 .filtreelement {
+  display:flex;
   margin-left: 32px;
   margin-top: 15px;
   border: 2px solid #f2f2f2;
@@ -205,6 +211,7 @@ button {
 }
 
 .nomfiltre {
+  margin-top: 10px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -323,18 +330,24 @@ button {
   box-shadow: 0.5px 1.5px 4px #0065fc;
 }
 
-.testiconetoile i {
+.hotelstar {
+  margin-left: 10px;
+}
+
+.testiconetoile {
+  margin-left: 10px;
+}
+
+.testiconetoile svg {
   color: #0065fc;
-  text-indent: 60%;
-  float: left;
+  margin-left: -3px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-.testiconetoile2 i {
+.testiconetoile2 svg {
   color: #dadada;
-  text-indent: 60%;
-  float: left;
+  margin-left: -3px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -354,13 +367,13 @@ button {
   margin-top: 20px;
 }
 
-.asideiconetoile i {
+.asideiconetoile svg {
   color: #0065fc;
   float: left;
   font-size: 65% !important;
 }
 
-.asideiconetoile2 i {
+.asideiconetoile2 svg {
   color: #dadada;
   float: left;
   font-size: 65% !important;
@@ -785,13 +798,13 @@ footer {
   }
 
   span.recherche {
-    display: none;
+    display:none;
   }
 
   button {
     display: initial;
     margin: 0 !important;
-    padding: 14px !important;
+    padding: 15px !important;
     border-radius: 25%;
   }
 
@@ -802,7 +815,6 @@ footer {
   input {
     font-size: 1.1em;
     padding: 12px 12px 14px 12px !important;
-    margin: 0 10px 0 0 !important;
   }
 
   .fa-map-marker-alt {
@@ -962,7 +974,8 @@ footer {
 
   .frioul {
     margin-left: 15px;
-    margin-bottom: -10px !important;
+    margin-bottom: -5px !important;
+    padding-bottom: 1px;
     width: 115% !important;
   }
 
