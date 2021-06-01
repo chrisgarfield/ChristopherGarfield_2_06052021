@@ -986,7 +986,6 @@ footer {
   }
 
   .notredame {
-    width: 100%;
     margin-left: 15px;
     margin-bottom: 20px !important;
     width: 115% !important;
@@ -1000,7 +999,6 @@ footer {
 
   footer {
     flex-direction: column;
-    width: 110%;
     padding: 0 !important;
   }
 
